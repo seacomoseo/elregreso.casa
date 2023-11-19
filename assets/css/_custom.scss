@@ -1,0 +1,91 @@
+// .bg-white {
+//   --subtitle: #a7a29a;
+// }
+
+// Menu
+
+.menu__link {
+  @include font-cursive;
+}
+
+
+// Header
+
+.bg-black,
+.bg-dark,
+.bg-grey,
+.bg-main-dark,
+.bg-alt-dark,
+.bg-link-dark {
+  #logo__el {
+    fill: $light;
+  }
+}
+
+@keyframes logo-drop {
+  0% {
+    transform: scale(3) rotate(360deg);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+#body-inicio #header {
+  .image, .image__inner {
+    overflow: visible;
+  }
+  #logo__spiral {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: logo-drop 1s 0s both;
+  }
+  @mixin show-up($delay) {
+    animation: show-up .5s (.5 + .25s * $delay) both;
+  }
+  #logo__hands {          @include show-up(0); }
+  #logo__title {          @include show-up(1); }
+  #logo__subtitle {       @include show-up(2); }
+  .description p {        @include show-up(3); }
+  .description .buttons { @include show-up(4); }
+}
+
+// Sections
+
+#body-inicio #header {
+  .bg-figure {
+    position: fixed;
+    z-index: -1;
+  }
+}
+.section.bg-dark:not(footer) {
+  --bg-color: #{ rgba($dark, .7) };
+}
+
+#colabora {
+  .section__icon--top {
+    color: $light;
+  }
+}
+#calendario {
+  .columns,
+  .slider__bullets {
+    flex-direction: row-reverse;
+  }
+}
+#contacto {
+  @media (min-width: $screen-xl) {
+    .contact__data > * {
+      width: calc(50% - .5em);
+    }
+  }
+}
+
+#body-admin {
+  .article__figure .image {
+    &, .image__inner {
+      border-radius: 50%;
+    }
+  }
+}

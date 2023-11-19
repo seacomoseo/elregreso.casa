@@ -1,0 +1,18 @@
+title: Calendario
+subtitle: Momentos para compartir
+rows:
+- type: articles
+  kind: events
+  author: ''
+  max: 12
+  design:
+    num: 4
+    color: white
+    slider: true
+- type: columns
+  items:
+  - link: https://chat.whatsapp.com/GCbGGpKTK5pCU1oSkTSpTx
+    label: Difusión de Actividades
+    more:
+      licon: whatsapp
+      button: whatsapp

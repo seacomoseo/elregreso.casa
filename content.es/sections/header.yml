@@ -1,0 +1,12 @@
+anchor: El Regreso - Comunidad Rural Perdurable
+color: dark
+image: logo.svg
+bg: fondo.jpg
+size: xs
+description: |
+  Espacio donde se desarrolla un proyecto de permacultura guiado por una comunidad de personitas entregadas a su crecimiento
+
+  [btn icon-plus Más](#principal)
+more:
+  full_screen: true
+  underline: false
