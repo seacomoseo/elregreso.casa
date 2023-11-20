@@ -53,15 +53,15 @@
 
 // Sections
 
-#body-inicio #header {
-  .bg-figure {
-    position: fixed;
-    z-index: -1;
-  }
-}
-.section.bg-dark:not(footer) {
-  --bg-color: #{ rgba($dark, .7) };
-}
+// #body-inicio #header {
+//   .bg-figure {
+//     position: fixed;
+//     z-index: -1;
+//   }
+// }
+// .section.bg-dark:not(footer) {
+//   --bg-color: #{ rgba($dark, .7) };
+// }
 
 #colabora {
   .section__icon--top {
@@ -72,6 +72,9 @@
   .columns,
   .slider__bullets {
     flex-direction: row-reverse;
+  }
+  .slider__bullets {
+    flex-wrap: wrap-reverse;
   }
 }
 #contacto {

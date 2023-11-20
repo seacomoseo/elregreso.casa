@@ -9,6 +9,7 @@ rows:
     num: 4
     color: white
     slider: true
+    hide_arrows: true
 - type: columns
   items:
   - link: https://chat.whatsapp.com/GCbGGpKTK5pCU1oSkTSpTx
