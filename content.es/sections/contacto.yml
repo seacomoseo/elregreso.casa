@@ -43,7 +43,3 @@ rows:
     coordinates: '{"type":"Point","coordinates":[-2.1553614,38.2065464]}'
   map:
     active: false
-    link: ''
-    iframe: ''
-    flip_x: true
-    divider: mountain-fill
