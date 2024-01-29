@@ -41,14 +41,14 @@
     transform-origin: center;
     animation: logo-drop 1s 0s both;
   }
-  @mixin show-up($delay) {
-    animation: show-up .5s (.5 + .25s * $delay) both;
+  @mixin show-from($delay) {
+    animation: show-from .5s (.5 + .25s * $delay) both;
   }
-  #logo__hands {          @include show-up(0); }
-  #logo__title {          @include show-up(1); }
-  #logo__subtitle {       @include show-up(2); }
-  .description p {        @include show-up(3); }
-  .description .buttons { @include show-up(4); }
+  #logo__hands {          @include show-from(0); }
+  #logo__title {          @include show-from(1); }
+  #logo__subtitle {       @include show-from(2); }
+  .description p {        @include show-from(3); }
+  .description .buttons { @include show-from(4); }
 }
 
 // Sections
