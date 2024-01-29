@@ -34,6 +34,7 @@ Será un placer acompañarte y guiarte en esta danza 🙏🏽🫂
 | 18:00h | Llegada |
 | 20:00h | Bienvenida y círculo |
 | 21:00h | Cena |
+{.table-sm}
 
 | Sábado ||
 |-|-|
@@ -43,11 +44,13 @@ Será un placer acompañarte y guiarte en esta danza 🙏🏽🫂
 | 17:00-19:30h | Taller |
 | 21:00h | Cena |
 | 22:00h | Jam |
+{.table-sm}
 
 | Domingo ||
 |-|-|
 | 10:00h | Paseo consciente <br> (ritual integración de lo femenino y lo masculino) |
 | 12:00h | Apertura de citas e intercambios para sesiones terapéuticas. |
+{.table-sm}
 
 Os esperamos con el corazón abierto 🫶
 
