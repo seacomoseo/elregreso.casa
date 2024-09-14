@@ -25,3 +25,25 @@
 /evento/2023-09-21-liberate-del-pasado/ /evento/2023/09/21/liberate-del-pasado/
 /evento/2023-09-22-union/ /evento/2023/09/22/union/
 /evento/2023-10-27-samhain/ /evento/2023/10/27/samhain/
+
+# 2024-09-14
+/2023/* /
+/2024/* /
+/category/* /
+/cdmx/* /
+/cultura/* /
+/deportes/* /
+/economia/* /
+/educacion/* /
+/espectaculos/* /
+/estados/* /
+/estilo/* /
+/internacionales/* /
+/nacional/* /
+/principal/* /
+/salud/* /
+/tag/* /
+/tecnologia/* /
+/turismo/* /
+/uncategorized/* /
+/lander /
